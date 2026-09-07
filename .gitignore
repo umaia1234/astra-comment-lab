@@ -1,4 +1,5 @@
 node_modules/
+__pycache__/
 mission-01/preview*.png
 mission-01/portrait-stage-3.svg
 mission-01/portrait-build-log.jsonl
