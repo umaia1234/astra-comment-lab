@@ -4,6 +4,8 @@
 
 ## 결과
 
+[갤러리에 게시한 결과 글](https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1398980) · 2026-09-07 21:33 KST 공개
+
 ![SVG 초상화의 렌더](portrait.png)
 
 공식 사진을 참고해 Codex가 SVG 경로를 작성한 **스타일화 초상화**입니다. 사진과 똑같은 재현을 의미하지 않습니다.
