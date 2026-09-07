@@ -1,0 +1,7 @@
+{
+  "name": "astra-comment-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {"portrait": "node mission-01/build-portrait.mjs"},
+  "dependencies": {"sharp": "0.35.4"}
+}
