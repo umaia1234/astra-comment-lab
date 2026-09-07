@@ -1,4 +1,17 @@
 {
+  "_OrbitControls-tDxz9AoE.js": {
+    "file": "_next/static/chunks/OrbitControls-tDxz9AoE.js",
+    "name": "OrbitControls"
+  },
+  "_button-DOr8mfFr.js": {
+    "file": "_next/static/chunks/button-DOr8mfFr.js",
+    "name": "button",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
   "_framework-D_rUT4EX.js": {
     "file": "_next/static/chunks/framework-D_rUT4EX.js",
     "name": "framework",
@@ -6,8 +19,8 @@
       "_rolldown-runtime-C60lm6uB.js"
     ]
   },
-  "_image-B4xms5ks.js": {
-    "file": "_next/static/chunks/image-B4xms5ks.js",
+  "_image-DR-RjdG4.js": {
+    "file": "_next/static/chunks/image-DR-RjdG4.js",
     "name": "image",
     "imports": [
       "_rolldown-runtime-C60lm6uB.js",
@@ -19,15 +32,31 @@
     "file": "_next/static/chunks/rolldown-runtime-C60lm6uB.js",
     "name": "rolldown-runtime"
   },
+  "app/cold-tuna/page.tsx": {
+    "file": "_next/static/chunks/page-D6vSZ809.js",
+    "name": "page",
+    "src": "app/cold-tuna/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "virtual:vinext-app-browser-entry",
+      "_button-DOr8mfFr.js",
+      "_framework-D_rUT4EX.js"
+    ],
+    "dynamicImports": [
+      "components/museum-world.tsx"
+    ]
+  },
   "app/page.tsx": {
-    "file": "_next/static/chunks/page-DUFF8077.js",
+    "file": "_next/static/chunks/page-baYqikmC.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-C60lm6uB.js",
       "virtual:vinext-app-browser-entry",
-      "_image-B4xms5ks.js",
+      "_button-DOr8mfFr.js",
+      "_image-DR-RjdG4.js",
       "_framework-D_rUT4EX.js"
     ],
     "dynamicImports": [
@@ -35,18 +64,31 @@
     ]
   },
   "components/lake-world.tsx": {
-    "file": "_next/static/chunks/lake-world-BhOT6URo.js",
+    "file": "_next/static/chunks/lake-world-D7WzPyxR.js",
     "name": "lake-world",
     "src": "components/lake-world.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-C60lm6uB.js",
-      "_image-B4xms5ks.js",
-      "_framework-D_rUT4EX.js"
+      "_image-DR-RjdG4.js",
+      "_framework-D_rUT4EX.js",
+      "_OrbitControls-tDxz9AoE.js"
+    ]
+  },
+  "components/museum-world.tsx": {
+    "file": "_next/static/chunks/museum-world-feZYhnLc.js",
+    "name": "museum-world",
+    "src": "components/museum-world.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_image-DR-RjdG4.js",
+      "_framework-D_rUT4EX.js",
+      "_OrbitControls-tDxz9AoE.js"
     ]
   },
   "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
-    "file": "_next/static/chunks/app-route-prefetch-policy-CO6_hNCT.js",
+    "file": "_next/static/chunks/app-route-prefetch-policy-BZaYOYCT.js",
     "name": "app-route-prefetch-policy",
     "src": "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
     "isDynamicEntry": true,
@@ -55,7 +97,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "_next/static/chunks/layout-segment-context-9o7oZHGx.js",
+    "file": "_next/static/chunks/layout-segment-context-Bg1COdTG.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -66,7 +108,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/streamed-icons.js": {
-    "file": "_next/static/chunks/streamed-icons-Cs-m6aYg.js",
+    "file": "_next/static/chunks/streamed-icons-D0Q1wsQE.js",
     "name": "streamed-icons",
     "src": "node_modules/vinext/dist/shims/streamed-icons.js",
     "isDynamicEntry": true,
@@ -76,7 +118,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "_next/static/chunks/index-2_m3Vxc8.js",
+    "file": "_next/static/chunks/index-CfP-aKdV.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -88,6 +130,7 @@
       "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
       "virtual:vinext-app-browser-entry",
       "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/cold-tuna/page.tsx",
       "app/page.tsx",
       "node_modules/vinext/dist/shims/streamed-icons.js"
     ]
